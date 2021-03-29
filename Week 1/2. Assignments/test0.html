@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>June's Homework Page</title>
+</head>
+
+
+<style type="text/css">
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption 
+		{
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    outline: 0;
+	    font-size: 100%;
+	    vertical-align: baseline;
+	    background: transparent;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.container {
+	  position: relative;
+	  width: 100%;
+	  max-width: 400px;
+	}
+
+	.container img {
+	  width: 100%;
+	  height: auto;
+	}
+
+	.container .week1 {
+	  position: absolute;
+	  top: 60%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  background-color: #555;
+	  color: white;
+	  font-size: 20px;
+	  padding: 80px;
+	  border: none;
+	  cursor: pointer;
+	  border-radius: 100%;
+	  text-align: center;
+	}
+	
+
+	.container .week1 :hover {
+	  background-color: black;
+	}
+
+
+
+
+
+	div.title {
+		background-color: #e1d7c2
+	}
+	
+	#title a:link {
+		color: #FFFFFF;
+		text-decoration: none;}
+	#title a:visited {color: #FFFFFF;}
+	#title a:hover {color: #FFFFFF;}
+	#title a:active {color: #FFFFFF;}
+
+
+	div.search {
+		background-color: #000000
+	}
+
+	#search a:link {
+		color: #FFFFFF;
+		text-decoration: none;}
+	#search a:visited {color: #FFFFFF;}
+	#search a:hover {color: #FFFFFF;}
+	#search a:active {color: #FFFFFF;}
+
+	#mainMenu li {
+		list-style-type: none;
+		display: inline;}
+	
+	#news a:link {
+		color: #000000;
+		text-decoration: none;}
+	#news a:visited {color: #000000;}
+	#news a:hover {color: #000000;}
+	#news a:active {color: #000000;}
+
+	#news {
+		color: grey;
+	}
+
+	#opinions a:link {
+		color: #000000;
+		text-decoration: none;}
+	#opinions a:visited {color: #000000;}
+	#opinions a:hover {color: #000000;}
+	#opinions a:active {color: #000000;}
+
+	#opinions {
+		color: grey;
+	}
+
+</style>
+
+<body>
+
+	<div class="container">
+	  <img src="https://i.pinimg.com/originals/91/fc/8a/91fc8a934f68332983b8cb93b00a67c0.jpg" alt="background" style="width:380%">
+	  	<button class= week1 style="font-family: didot">Week1</button>
+	  </div>
+
+	</div>
+
+
+
+
+
+
+	<div id="search" class="search">
+		<button style="background-color:#2A2A2A;color:#FFFFFF; border-color:#666666"><input type="text" name="search bar"><img src="data:image/png;base64,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" width="20" height="20"></button>
+
+		<button style="background-color:#2A2A2A;color:#FFFFFF; border-color:#666666">SEARCH</button>
+
+		<nav>
+			<ul id="mainMenu" style="color:white; padding-left: 18em;">
+				<li><a href="https://www.washingtonpost.com/politics/joe-biden-46th-president/?hp_top_nav_first%20100%20days">First 100 Days</a></li>
+
+				<li style="padding-left: 1em"><a href="https://www.washingtonpost.com/coronavirus/?hp_top_nav_coronavirus">Coronavirus</a></li>
+
+				<button style="background-color:#1955A5;color:#FFFFFF; border-color:#3D73D5">Get one year for $29</button>
+
+				<button style="background-color:#2A2A2A;color:#FFFFFF; border-color:#666666">Sign in</button>
+
+			</ul>
+		</nav>
+	</div>
+
+	<div id="week">
+
+		<img src="https://cdn2.iconfinder.com/data/icons/integers/60/number-four-512.png" width="100" height="100" alt="four">		
+	</div>
+
+	<div id="news">
+		<div id="shooting">
+			<button style="background-color:#FF0000;color:#FFFFFF; border-color:#FF0000; border-radius: 15px">DEVELOPING</button>
+
+			<h1><a href="https://www.washingtonpost.com/nation/2021/03/22/boulder-shooting/">10 people killed in shooting at grocery store in Boulder, Colo.</a></h1>
+
+			<p>A Boulder police officer was among the victims of the shooting at a King Soopers store Monday. Law enforcement officials said the suspect is in custody, but they offered scarce details about the attack, including any information about a possible motive.</p>
+
+			<p>By <a href="https://www.washingtonpost.com/people/paulina-villegas/">Paulina Villegas,</a> <a href="https://www.washingtonpost.com/people/andrea-salcedo/">Andrea Salcedo</a> and Amanda Miller </p>
+
+			<ul>
+				<li><a href="https://www.washingtonpost.com/photography/interactive/2021/photos-scene-shooting-boulder-grocery-store/">Photos from the scene of the boulder shooting</li>
+			</ul>
+
+			<a href="https://www.washingtonpost.com/nation/2021/03/22/boulder-shooting/"><img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Farc-anglerfish-washpost-prod-washpost%252Es3%252Eamazonaws%252Ecom%2Fpublic%2FHIH5UTULPEI6XIZ63IUJIHFZVQ%252Ejpg&w=596&h=398" alt="image" width="300"></a>
+
+			<p>Shoppers are evacuated from a King Soopers grocery store after a gunman opened fire Monday in Boulder, Colo. (Getty Images)</p>
+
+		</div>
+
+		<div id="biden">
+			<h2><a href="https://www.washingtonpost.com/politics/biden-team-searching-for-new-ways-to-slow-border-surge/2021/03/22/70e6e054-8b1e-11eb-a730-1b4ed9656258_story.html">Biden team searches for new ways to slow border surge</a></h2>
+
+			<p>The administration is sending sterner warnings to would-be migrants and devising alternate pathways for legal entry. But it’s unclear whether it will be enough.</p>
+
+			<p>By <a href="https://www.washingtonpost.com/people/sean-sullivan/">Sean Sullivan</a> <a href="https://www.washingtonpost.com/people/seung-min-kim/">Seung Min Kim</a></p>
+
+		</div>
+
+		<div id="latino">
+			<a href="https://www.washingtonpost.com/magazine/2021/03/22/latino-men-trump-2020/"><img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Fimg%252Ewashingtonpost%252Ecom%2Fr%2F2010-2019%2FWashingtonPost%2F2021%2F03%2F22%2FProduction%2FMagazine%2FImages%2Flatinos_share_3x2%252Ejpg&w=992&h=662" alt="image" width="600"></a>
+
+			<p>(Marly Gallardo for The Post)</p>
+
+			<h4 style="color:black">From The Magazine</h4>
+			
+			<h2><a href="https://www.washingtonpost.com/magazine/2021/03/22/latino-men-trump-2020/">Why did Latino men shift toward Trump in 2020? I looked to my dad for answers.</a></h2>
+
+			<p>Latinos — especially Latino men — are moving to the right. Here’s how Democrats can win them back.</p>
+
+			<p>By Eric Garcia</p>
+
+		<div id="title" class="title"style="color:#bf764c; padding-left: 5em; font-size: 100px">
+			<h1>June's Homwork Page</h1>
+		</div>
+
+	</div>
+
+		</div>
+
+	</div>
+	
+</body>
+
+</html>
