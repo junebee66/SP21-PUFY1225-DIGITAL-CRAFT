@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body{
+	font-family: "Staatliches";
+}
+
+a:hover {
+	color: red;
+	}
+
+a:link {
+  text-decoration: none;
+}
+
+#top {
+	display: flex;
+	size: 10px;
+	line-height: 0.2em;
+	padding-top: 10px;
+	padding-left: 20px;
+
+}
+
+#search_bar {
+	display: flex;
+	position: absolute;
+	right: 10px;
+}
+
+#search_bar button {
+	font-family: "Staatliches";
+}
+
+#search_bar input {
+	font-family: "Staatliches";
+}
+
+
+#center{
+	display: flex;
+	position: absolute;
+    top: 55%;
+    left: 30%;
+}
+
+#center ul{
+	list-style-type: none;
+  height: 100%;
+  overflow: auto;
+  bottom: 2px;
+
+}
+
+.projects li{
+	text-align: center;
+}
+
+
+.absolute h3{
+	bottom: 2%
+}
+
+
+#bottom{
+	position: relative;
+	padding-top: 570px;
+    font-size:25px;
+}
+
+
+
+.menu {
+	display:flex;
+	text-align: center;
+	padding-top: 8%;
+
+}
+
+.left{
+	position: relative;
+	text-align: left;
+	padding-left: 20px;
+}
+
+
+.right{
+	position: relative;
+	text-align: left;
+	padding-left: 1280px;
+}
+
+#bottom ul {
+list-style-type: none;
+  overflow: hidden;
+  position: absolute;
+  bottom: 1px;
+  left: 23%;
+
+}
+
+#bottom li {
+  float: left;
+  text-align: center;
+  padding: 15px;
+}
+
