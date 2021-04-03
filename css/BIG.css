@@ -12,27 +12,33 @@ a:link {
   text-decoration: none;
 }
 
+
 #top {
 	display: flex;
 	size: 10px;
 	line-height: 0.2em;
 	padding-top: 10px;
 	padding-left: 20px;
-
 }
 
-#search_bar {
-	display: flex;
-	position: absolute;
-	right: 10px;
+#top h1{
+	padding-right:300px;
 }
 
-#search_bar button {
+#top input {
 	font-family: "Staatliches";
+	font-size: 30px;
+	width: 900px;
+	text-align: center;
+	position: relative;
+
 }
 
-#search_bar input {
+#top h3 {
 	font-family: "Staatliches";
+	font-size: 28px;
+	padding-left: 150px;
+
 }
 
 
@@ -62,45 +68,34 @@ a:link {
 
 
 #bottom{
-	position: relative;
-	padding-top: 570px;
+	position: absolute;
+    bottom: 0px;
     font-size:25px;
 }
 
 
-
-.menu {
-	display:flex;
-	text-align: center;
-	padding-top: 8%;
-
-}
-
-.left{
-	position: relative;
-	text-align: left;
-	padding-left: 20px;
-}
-
-
-.right{
-	position: relative;
-	text-align: left;
-	padding-left: 1280px;
-}
-
 #bottom ul {
-list-style-type: none;
-  overflow: hidden;
-  position: absolute;
-  bottom: 1px;
-  left: 23%;
-
+	display:flex;
+	list-style-type: none;
 }
 
 #bottom li {
-  float: left;
   text-align: center;
-  padding: 15px;
+  padding-left: 30px;
 }
 
+#bottom .left{
+  	position: relative;
+	padding-right:250px;
+	font-color: black;
+}
+
+
+#bottom .right{
+  	position: relative;
+	padding-left:250px;
+}
+
+#bottom li:hover{
+	color: red
+}
