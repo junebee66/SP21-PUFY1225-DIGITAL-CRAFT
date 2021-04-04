@@ -1,0 +1,400 @@
+
+  *{
+    margin:0;
+    padding:0;
+  }
+
+  body{
+    margin:0;
+    font-family: didot;
+    font-size:17px;
+    color:#926239;
+    line-height:1.6;
+  }
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color:white;
+}
+
+
+a:active {
+  text-decoration: underline;
+}
+
+
+  #showcase{
+    background-image:url('');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding:0 20px;
+  }
+
+  #showcase h1{ /*HOMEWORK*/
+    line-height:0.8;
+    font-size:14.5vw;
+    position:absolute;
+    bottom:0;
+    left: 20px;
+    
+  }
+    #showcase h2{ /*June Bee's*/
+    font-size:100px;
+    line-height:1.2;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+  }
+
+  #showcase h3{ /*Digital Craft*/
+    font-size:20px;
+    position:absolute;
+    top:0;
+    align-items:top;
+    text-align:top;
+    padding:10 0px;
+  }
+
+  #showcase h4{ /*My Github Repository*/
+    font-size:18px;
+    position:absolute;
+    top:0;
+    right:0;
+    align-items:top;
+    justify-content:left;
+    text-align:top;
+    padding:35 0px;
+    margin-right: 260;
+    color: #bf764c
+
+  }
+   #showcase h5{ /*My Learning Portfolio*/
+    font-size:18px;
+    position:absolute;
+    top:0;
+    right:0;
+    align-items:top;
+    justify-content:left;
+    text-align:top;
+    padding:35 0px;
+    margin-right: 20;
+    color: #bf764c
+
+  }
+
+  #showcase h4 :hover {
+    background-color: #ffffff;
+    color: #926239;
+  }
+
+  #showcase p{ 
+    font-size:20px;
+    line-height:1.2;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+  }
+
+
+  #btn-group {
+    color: white;
+    padding: 1px 20px; 
+    cursor: pointer; 
+    float: center; 
+    line-height:8;
+    justify-content:center;
+      align-items:center;
+      text-align:center;
+      margin-top:50px;
+      width: 100%;
+  }
+
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  #showcase .button{
+    flex-direction:row;
+    font-size:18px;
+    text-decoration:none;
+    color:#FFFFFF;
+    border:#90926f 1px solid;
+    padding:50px;
+    border-radius:50%;
+    background: #90926f;
+  }
+
+  #showcase .button:hover{
+    background:#FFFFFF;
+    color:#90926f;
+  }
+
+
+.dot {
+  width: 400px;
+  height: 400px;
+  line-height: 350px;
+  border-radius: 50%;
+  font-size: 190px;
+  text-align: center;
+  background: #ffffff;
+  display: block;
+  margin-right: 0em;
+  flex-shrink: 0;
+  text-decoration: none;
+  font-color:#926239;
+}
+
+#allweeks .number_circles a:visited {
+  text-decoration: none;
+  color:#926239;
+}
+
+#allweeks .number_circles a:link {
+  color:#926239;
+}
+
+#allweeks .number_circles a:hover {
+  color:#FFFFFF;
+}
+
+#allweeks span:hover {
+  background-color:#C6A589;
+}
+
+
+.bullet_point {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: block;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: .5em;
+}
+
+#allweeks a {
+  font-color: #926239;
+}
+
+#allweeks .assignments a:visited {
+  text-decoration: none;
+  color:white;
+}
+
+#allweeks .assignments a:hover {
+  color:#C6A589;
+}
+.assignments{
+  margin-top: 5px;
+}
+
+#week1 h1 { /* In Class Excercises and Hw*/
+    font-size: 50px;
+    color: #ffffff;
+    margin:-5px;
+    margin-left: 5px;
+
+  }
+
+
+.white_fonts{
+  color:#ffffff;
+}
+
+
+.number_circles{
+    padding-right: 2em;
+}
+
+#allweeks .work_1{
+  display: flex;
+  font-family: didot;
+  margin:-1em;
+}
+
+.collapsible {
+  background-color: #C6A589;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 61vw;
+  height: 4vh;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 15px;
+  margin: 3px;
+}
+
+.active, .collapsible:hover {
+  background-color: #BA9A83;
+}
+
+
+.content {
+  padding: 15 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #6D4E37;
+  border-radius: 15px;
+  width: 59vw;
+  
+}
+
+
+#week2 .content{
+  padding: 15 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #6D4E37;
+  border-radius: 15px;
+  width: 59vw;
+  color: white; 
+}
+
+#allweeks .content_horizontal{
+  display: flex;
+}
+
+#allweeks .bullet_text{
+  font-size: 25px;
+}
+
+#allweeks .bullet_text_sml{
+  font-size: 18px;
+  padding:8 15;
+}
+
+#allweeks .dropdown_text{
+  font-size: 25px;
+  margin-right: 1em;
+
+
+}
+
+
+
+.small_rnd_buttons{
+  background-color: A08470;
+  color: white;
+  cursor: pointer;
+  padding:0 18;
+  height: 40px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-right: 1em;
+  font-family: didot;
+}
+
+
+
+  #week1{
+    display:flex;
+    padding:20px;
+    background:#926239;
+    color:#fff;
+  }
+
+
+  #week1_div{
+    display:flex;
+  }
+
+  #week1 h1 { /* In Class Excercises and Hw*/
+    font-size: 50px;
+    color: #ffffff;
+    margin:-5px;
+    margin-left: 5px;
+  }
+
+  #week2{
+    display:flex;
+    padding:20px;
+    background:#FFFFFF;
+    color:#926239;
+  }
+
+  #week2 h1{
+    font-size: 50px;
+    color:#926239;
+    margin:-5px;
+    margin-left: 5px;
+
+  }
+
+
+  #week3{
+    display:flex;
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+  }
+
+  #week4{
+    display:flex;
+    padding:20px;
+    background:#f9f9f9;
+    color:#926239;
+    text-align:center;
+  }
+
+  #week5{
+    display:flex;
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+  }
+
+  #week6{
+    display:flex;
+    padding:20px;
+    background:#f9f9f9;
+    color:#926239;
+    text-align:center;
+  }
+  
+  #week7{
+    display:flex;
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+  }
+  
+
+  #section-c{
+    display:flex;
+  }
+
+  #section-c div{
+    padding:20px;
+  }
+
+  #section-c .box-1, #section-c .box-3{
+    background:#926239;
+    color:#fff;
+  }
+
+  #section-c .box-2{
+    background:#f9f9f9;
+  }
