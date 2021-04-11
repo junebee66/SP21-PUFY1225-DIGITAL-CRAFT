@@ -6,9 +6,9 @@ body{
 h1{
 	color: black;
 	position:absolute;
-	left:1820px;
-	top:600px;
-	font-size: 100px;
+	left:550px;
+	top:-30px;
+	font-size: 50px;
 }
 
 #left{
@@ -20,23 +20,27 @@ h1{
 
 canvas {
 	position:absolute;
-	left:1800px;
-	top:800px;
+	left:300px;
+	top:70px;
+
 }
 
 img{
 	position:absolute;
-	left:500px;
-	top:250px;
+	left:300px;
+	top:70px;
 }
 
 button{
 	position:absolute;
-	left:1800px;
-	top:1500px;
-	width:22.3vw;
-	height:5vh;
+	left:0px;
+	top:0px;
+	width:19.6vw;
+	height:100vh;
 	font-size: 30px;
+	border: none;
+	background-color: #295999;
+	color: white;
 
 }
 
