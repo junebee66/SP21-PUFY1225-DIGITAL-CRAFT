@@ -1,6 +1,59 @@
 
 
-h1{
-	padding-left: 30px;
+#google{
+	padding-left: 15px;
 	color: black;
+	position: absolute;
+	top:0px;
+	width: 100px;
+	font-size: 120px;
+
+}
+
+#plan{
+	padding-left: 15px;
+	color: black;
+	position: absolute;
+	bottom:0px;
+	top:800px;
+	width: 100px;
+	font-size: 130px;
+}
+
+#canvas {
+	position:absolute;
+	size:50%
+}
+
+#canvas_all{
+	size:50px;
+
+}
+
+img{
+	position:absolute;
+	size:100%;
+
+}
+
+button{
+	position:absolute;
+	width: 1600px;
+	height: 1222px;
+	background-color: Transparent;
+	border:none;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0);
+  z-index: 2;
+  cursor: pointer;
 }
