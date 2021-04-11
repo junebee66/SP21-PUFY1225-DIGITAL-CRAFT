@@ -302,6 +302,7 @@ a:active {
   background-color: #6D4E37;
   border-radius: 15px;
   width: 59vw;
+  overflow: auto;
   
 }
 
