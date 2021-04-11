@@ -14,9 +14,11 @@ function draw(){
 	stroke(0);
 	fill("green");
 	rect(width/2,height/2, - recHeight/2,50);
+	
 	noStroke();
 	fill("blue");
 	ellipse(200,200,20,20);
+	
 	stroke(0);
 	fill(200,0,200,50);
 	triangle(width/2,100,320,100,310,80);
