@@ -1,17 +1,27 @@
 
+body{
+	background-color:#82cbff;
+}
 
 h1{
 	color: black;
 	position:absolute;
-	left:540px;
-	top:65px;
+	left:1820px;
+	top:600px;
 	font-size: 100px;
+}
+
+#left{
+	position: absolute;
+	left:500px;
+	top:125px;
+	color: #295999;
 }
 
 canvas {
 	position:absolute;
-	left:500px;
-	top:250px;
+	left:1800px;
+	top:800px;
 }
 
 img{
@@ -22,11 +32,14 @@ img{
 
 button{
 	position:absolute;
-	left:500px;
-	top:670px;
-	width: 37vw;
-	height: 5vh;
+	left:1800px;
+	top:1500px;
+	width:22.3vw;
+	height:5vh;
+	font-size: 30px;
+
 }
+
 
 #overlay {
   position: fixed;
