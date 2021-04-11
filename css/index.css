@@ -43,10 +43,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-  
-
-
-
 
 
 
@@ -204,7 +200,7 @@ a:active {
   text-align: center;
   background: #ffffff;
   display: block;
-  margin-right: 0em;
+  margin-left: .05em;
   flex-shrink: 0;
   text-decoration: none;
   font-color:#926239;
