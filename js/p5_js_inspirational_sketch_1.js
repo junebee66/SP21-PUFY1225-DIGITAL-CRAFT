@@ -151,9 +151,14 @@ function draw(){
 		vertex(172,225);
 		vertex(156,213);
 	endShape(CLOSE);
-	
 
 }
 
 
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
 
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}

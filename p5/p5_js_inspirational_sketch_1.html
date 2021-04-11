@@ -12,25 +12,15 @@
 </head>
 <body>
 	<h1>NeverLand</h1>
-	<div id= "original">
-		<img src="../assets/neverland.jpg" class= "overlay">
+	<div id= "overlay" onclick="off()">
+		<h1>NeverLand</h1>
+		<img src="../assets/neverland.jpg">
 	</div>
 
 	<div id= canvas>
 		<script id="land" class="container" src="../js/p5_js_inspirational_sketch_1.js"></script>
 	</div>
-
-<button onclick="toggleText()">button</button>
-<script>
-function toggleText(){
-  var x = document.getElementById("land");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+	<button onclick="on()">Original</button>
 
 
 </body>
