@@ -2,7 +2,7 @@
 //this sketch is created watching the coding train https://www.youtube.com/watch?v=9mucjcrhFcM
 //and some references cat's pictures online
 //i was initally trying to draw weather icons. 
-//That's why the file is names weather icons. 
+//That's why the file is named weather icons. 
 //However, it all the curve lines were a bit difficult for me, so I decided to draw a cat.
 
 function setup(){
