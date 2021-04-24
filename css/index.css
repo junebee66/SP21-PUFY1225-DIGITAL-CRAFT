@@ -429,7 +429,14 @@ a:active {
     padding:20px;
     background:#926239;
     color:#fff;
-    text-align:center;
+  }
+
+
+  #week5 h1 { /* In Class Excercises and Hw*/
+    font-size: 50px;
+    color: #ffffff;
+    margin:-5px;
+    margin-left: 5px;
   }
 
   #week6{
