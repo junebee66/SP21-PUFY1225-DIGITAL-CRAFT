@@ -1,0 +1,23 @@
+
+#date h1{
+	position: absolute;
+	font-family: Avenir;
+	font-size:300px;
+	color:#fbf8e5;
+	-webkit-text-stroke: 2px black;
+	left:140px;
+	top:-130px;
+
+}
+
+#date h3{
+	font-family: Avenir;
+	font-size: 50px;
+	color:grey;
+	position:absolute;
+	top:45px;
+	left:980px;
+
+}
+
+
