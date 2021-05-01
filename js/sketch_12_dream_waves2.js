@@ -1,5 +1,3 @@
-// let img;
-
 
 let xPos = 200;
 let yPos = 200;
@@ -10,18 +8,15 @@ function setup(){
 	// background(0,0,35,5); 
   createCanvas(1000,500);
   noStroke();
-  // img = loadImage('../assets/neverland.jpg')
   // canvas.style('z-index','1');
 }
 function draw(){
   background(random(1,360),random(1,360),random(1,360),5);
   yPos += ySpeed;
   xPos += xSpeed;
-  // fill('black');
-  // ellipse(xPos, yPos, 25, 25);
+
   if(yPos >= height || yPos <=0){
     ySpeed *= -1;
-    // drawFish(0,0,d);
     // background(random(0,360),100,100);
   }
   if(xPos >= width || xPos <= 0){

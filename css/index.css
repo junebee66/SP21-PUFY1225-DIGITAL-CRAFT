@@ -442,9 +442,16 @@ a:active {
   #week6{
     display:flex;
     padding:20px;
-    background:#f9f9f9;
+    background:#FFFFFF;
     color:#926239;
-    text-align:center;
+  }
+
+  #week6 h1{
+    font-size: 50px;
+    color:#926239;
+    margin:-5px;
+    margin-left: 5px;
+
   }
   
   #week7{

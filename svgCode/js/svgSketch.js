@@ -5,7 +5,7 @@ let ySpeed = 5;
 let xSpeed = 2;
 let faceHeight =7;
 function setup(){
-	// backgrouxnd(0,0,35,5); 
+  // backgrouxnd(0,0,35,5); 
   createCanvas(1000,500);
   noStroke();
   // canvas.style('z-index','1');
@@ -148,4 +148,7 @@ function draw(){
   vertex(143+xPos, 205+yPos);
   vertex(141+xPos, 171+yPos);
   endShape();
+
+  //   when you're ready to export the sketch uncomment the save() function and reload the sketch
+    save();
 }
