@@ -1,6 +1,6 @@
 //The four topics included in this project are:
 //1. Random: was replaced by noise
-//2. functions: I show, hide, and stop buttons
+//2. functions: show, hide, and stop buttons
 //3. value: slider and name values to control the drawing
 //4. variable: the noise "t" is most significant variable in here that make everything look smooth
 //5. loop: the drawing loop on its own and stop when the noLoop function is activated.
@@ -43,10 +43,10 @@ function hide(){
   background(0, 10);//the 10 is the alpha transparency that helps the name typed in the input to only show the very last version, meaning if it is -1 or less than 5, all the deleted text typed in the input section will show and overlap onto each other.
   fill(r, g, b);
   textSize(300);
-  text("Hey,",0,200);
-  text(name,0,500);
+  text("Hey,",30,250);
+  text(name,30,570);
   textSize(100);
-  text("I think you should...",0,800);
+  text("I think you should...",30,750);
 }
 
 
@@ -64,7 +64,7 @@ function draw() {
   let feel = document.getElementById('feel').value;
   
   //the confidece level controls the alpha transparency of background
-  background(0, confidence*noise(t));//making the confidence value times niose will help the opacity(which is also the viscous level of the background. How much does the past drawing/circles stick onto the background)
+  background(0, confidence*noise(t));//making the confidence value times niose will help the opacity(which is also the viscous level of the background. How much does the past drawing/circles stick onto the background) change gradually 
   noStroke();
   fill(r, g, b,);
   ellipse(x+300, y, w, h);//initially I made the canvas 2/3 of the windowWidth, but then I have to put the text, so I change it back to full width. This cause me have to add 300 to the x of the brush so it doesn't draw over the sliders panel of the left.

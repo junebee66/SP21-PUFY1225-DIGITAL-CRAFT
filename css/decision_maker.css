@@ -5,6 +5,18 @@ body{
 
 }
 
+input{
+	height:40px;
+	width:30%;
+	border:none;
+	outline:none;
+	border-radius:50px;
+	text-align: center;
+	font-family:Sathu;
+	font-size: 25px;
+	margin:20px;
+}
+
 input[type="range"]{
 	-webkit-appearance:none;
 	width:30%;
@@ -28,35 +40,46 @@ script{
 	width: 50px;
 }
 
-
-#sliders{
-	display:inline;
-	width:30%;
+.sliders{
+	width: 80%;
+	height:100vh;
+	background: transparent;
+	border-radius: 10px;
+	display:grid;
+	align-items: center;
+	color:white;
 	left:0px;
-	width:windowWidth/3;
-	margin-left:-100px;
+	text-align: center;
+	margin-left:-350px;
+	margin-top:-100px;
 }
 
-#sliders h2{
-	margin-left:50px;
+#sliders{
+	margin-top:-180px;
+}
+
+h1{
+	font-size: 40px;
+	margin-top:100px;
 }
 
 button{
-	margin-top:200px;
-	background-color: #FFFFFF;
-	color: #000000;
+	/*margin-top:100px;*/
+	background-color: black;
+	color: #FFFFFF;
 	border: 5px solid #000000;
 	border-radius: 40px;
 	font-family: "Quicksand", sans-serif;
 	font-size: 30px;
 	font-weight: bold;
 	padding: 15px 30px;
+	margin-left: 10px;
 }
 
 
 button:hover{
-	background-color: black;
-	color:#FFFFFF;
+	background-color: white;
+	color:#000000;
   	cursor: pointer;
 
 }
